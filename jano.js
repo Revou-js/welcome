@@ -51,9 +51,9 @@ const embed = new Discord.MessageEmbed()
 𝐋𝐞𝐟𝐭 [change channel]
 **
 **[ invite ]**
-**[ click here ](https://discord.com/api/oauth2/authorize?client_id=799228179784794183&permissions=8&scope=bot)** 
+**[ click here ](https://discord.com/api/oauth2/authorize?client_id=825337753449005056&permissions=8&scope=bot)** 
 **[ support ]**
-**[ click here ](https://discord.gg/3wykSpqjZq)**
+**[ click here ](https://discord.gg/e6qdr5kXZh)**
  `)
     
     .setFooter(` System bot ✨ | Coded by , MAFYA`, jano.user.avatarURL)
