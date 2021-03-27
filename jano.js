@@ -22,7 +22,7 @@ const listener = app.listen(process.env.PORT, () => {
 const Discord = require ("discord.js")
 const moment = require ("moment")
 const jano = new Discord.Client();
-const prefix = "j!";
+const prefix = "m!";
 
 
 jano.login("ODI1MzM3NzUzNDQ5MDA1MDU2.YF8drg.Ywln6YZmNcybbMco-uNEBllHSU8");
@@ -44,7 +44,7 @@ if (message.content === prefix +"help") {
 const embed = new Discord.MessageEmbed()
 .setColor("BLACK")
 .setThumbnail("https://media.tenor.com/images/85500641e177bccfc805cac8a2805e3f/tenor.gif")
-.setAuthor("Prefix [ j! ]","https://i.imgur.com/Y9N3OCy.gif?noredirect")
+.setAuthor("Prefix [ m! ]","https://discord.com/api/oauth2/authorize?client_id=825337753449005056&permissions=8&scope=bot")
 .setDescription(` 
 **
 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 [change channel]
@@ -57,7 +57,7 @@ const embed = new Discord.MessageEmbed()
  `)
     
     .setFooter(` System bot ✨ | Coded by , MAFYA`, jano.user.avatarURL)
-    .setURL("https://discord.gg/3wykSpqjZq")
+    .setURL("https://discord.gg/DCJ3uyxQDk")
       
     message.channel.send(embed);
       message.react("<a:jano_27:799630916820795422>");
