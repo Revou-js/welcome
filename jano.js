@@ -74,26 +74,26 @@ jano.on("guildMemberAdd", member => {
   if (!channel) return;
   const joinembed = new Discord.MessageEmbed()
     .setTitle(
-      `<a:jano_10:799629559217389608>**A new member just arrived**<a:jano_10:799629559217389608>`
+      `<a:mafya_10:799629559217389608>**A new member just arrived**<a:mafya_10:799629559217389608>`
     )
     .setColor("RANDOM")
     .setThumbnail(jano)
     .addField(
-      "<a:jano_28:799630995317850152>| **name** : ",
+      "<a:mafya_28:799630995317850152>| **name** : ",
       `${member}
     · · • • • ✤ • • • · ·`
     )
     .addField(
-      "<a:jano_13:804354511355117598>| **Welcome**",
+      "<a:mafya_13:804354511355117598>| **Welcome**",
       `Welcome to the server, ${member}
     · · • • • ✤ • • • · ·`
     )
     .addField(
-      "<a:jano_14:804354530606186527><a:jano_15:804354549653438534>| **User** :",
+      "<a:mafya_14:804354530606186527><a:mafya_15:804354549653438534>| **User** :",
       "**[" + `${member.id}` + "]**"
     )
     .addField(
-      "<a:jano_10:799629559217389608>| **Your are the member**<a:jano_10:799629559217389608>",
+      "<a:mafya_10:799629559217389608>| **Your are the member**<a:mafya_10:799629559217389608>",
       `${member.guild.memberCount}
       · · • • • ✤ • • • · ·`
     )
