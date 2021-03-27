@@ -68,7 +68,7 @@ const embed = new Discord.MessageEmbed()
 /////////// code welcome
 jano.on("guildMemberAdd", member => {
   const channel = member.guild.channels.cache.find(
-    channel => channel.name === "𝐖𝐞𝐥𝐜𝐨𝐦𝐞"
+    channel => channel.name === "⛅│𝚆𝙴𝙻𝙲𝙾𝙼𝙴"
   );
   let jano = member.user.avatarURL();
   if (!channel) return;
