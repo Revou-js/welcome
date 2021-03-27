@@ -25,7 +25,7 @@ const jano = new Discord.Client();
 const prefix = "j!";
 
 
-jano.login("Nzk5MjI4MTc5Nzg0Nzk0MTgz.YAAhPw.G1toaOZWt7G_qGob9xqSoGA96co");
+jano.login("ODI1MzM3NzUzNDQ5MDA1MDU2.YF8drg.Ywln6YZmNcybbMco-uNEBllHSU8");
 jano.on("ready", async () => {
   console.log(`Logged in as ${jano.user.username}!`);
   jano.user.setStatus("ONLINE");
@@ -56,7 +56,7 @@ const embed = new Discord.MessageEmbed()
 **[ click here ](https://discord.gg/3wykSpqjZq)**
  `)
     
-    .setFooter(` System bot ✨ | Coded by , JANO`, jano.user.avatarURL)
+    .setFooter(` System bot ✨ | Coded by , MAFYA`, jano.user.avatarURL)
     .setURL("https://discord.gg/3wykSpqjZq")
       
     message.channel.send(embed);
@@ -101,7 +101,7 @@ jano.on("guildMemberAdd", member => {
     .setFooter(`**${member.guild.name}**`)
     .setTimestamp()
     .setImage(
-      "https://media.discordapp.net/attachments/806608889805537309/808492139172200458/ImpracticalFearfulEsok-max-1mb.gif"
+      "https://cdn.discordapp.com/attachments/822522514307022909/825340612965957653/standard_12.gif"
     )
     .setFooter(`${member.guild.name}`)
     .setTimestamp();
