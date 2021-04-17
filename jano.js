@@ -56,7 +56,7 @@ const embed = new Discord.MessageEmbed()
 **[ click here ](https://discord.gg/e6qdr5kXZh)**
  `)
     
-    .setFooter(` System bot ✨ | Coded by , MAFYA`, jano.user.avatarURL)
+    .setFooter(` System bot ✨ | Coded by , Revou`, jano.user.avatarURL)
     .setURL("https://discord.gg/DCJ3uyxQDk")
       
     message.channel.send(embed);
@@ -79,21 +79,21 @@ jano.on("guildMemberAdd", member => {
     .setColor("RANDOM")
     .setThumbnail(jano)
     .addField(
-      "<a:mafya_28:799630995317850152>| **name** : ",
+      "🔆| **name** : ",
       `${member}
     · · • • • ✤ • • • · ·`
     )
     .addField(
-      "<a:mafya_13:804354511355117598>| **Welcome**",
+      "👋| **Welcome**",
       `Welcome to the server, ${member}
     · · • • • ✤ • • • · ·`
     )
     .addField(
-      "<a:mafya_14:804354530606186527><a:mafya_15:804354549653438534>| **User** :",
+      "👤| **User** :",
       "**[" + `${member.id}` + "]**"
     )
     .addField(
-      "<a:mafya_10:799629559217389608>| **Your are the member**<a:mafya_10:799629559217389608>",
+      "🆔| **Your are the member**",
       `${member.guild.memberCount}
       · · • • • ✤ • • • · ·`
     )
@@ -124,7 +124,7 @@ jano.on("guildMemberRemove", member => {
     .setColor("RANDOM")
     .setThumbnail(jano)
     .addField("👥|𝐍𝐀𝐌𝐄:", `${member}`)
-    .addField("<a:jano_13:799300705323188285>├baxerche mle shkaw┤<a:jano_13:799300705323188285>", `!`)
+    .addField("😡├baxerche mle shkaw┤👿", `!`)
     .addField("✶⊶⊷⊶⊷❍⊶⊷⊶⊷✶;(",   "<a:jano_12:799299644055748632>naya aw servera<a:jano_12:799299644055748632>")
     .addField(
       "⳺☟مــیــمــبەرەکــان ماوە⳻",
@@ -143,21 +143,21 @@ jano.on("guildMemberAdd", member => {
       `__**A new member just arrived!**__`
     )
     .addField(
-      "<a:jano_28:799630995317850152>| name : ",
+      "↪️| name : ",
       `${member}
     · · • • • ✤ • • • · ·`
     )
     .addField(
-      "<a:jano_28:799630995317850152>| Welcome",
+      "👋| Welcome",
       `Welcome to the server, ${member}
     · · • • • ✤ • • • · ·`
     )
     .addField(
-      " <a:jano_16:799306063714451476>| User :",
+      " 🆔| User :",
       "**[" + `${member.id}` + "]**"
     )
     .addField(
-      "<a:jano_16:799306063714451476>| Your are the member",
+      "^_^| Your are the member",
       `${member.guild.memberCount}
       · · • • • ✤ • • • · ·`
     )
